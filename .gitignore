@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Env files (VERY IMPORTANT — NEVER push this)
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Build / cache
+dist/
+build/
+.cache/
+.tmp/
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Uploaded files (optional — if you store user uploads locally)
+uploads/
